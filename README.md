@@ -6,4 +6,4 @@
 
 The aim of this project is to route angular components based on model updates. It will allow the server-side application to control how components are assembled.
 
-For example, we could use this router in order to render the fornt-end of an [Oracle Commerce Experience Manager](https://www.youtube.com/watch?v=TGm7Iqe8HkQ) application.
+For example, we could use this router in order to render the front-end of an [Oracle Commerce Experience Manager](https://www.youtube.com/watch?v=TGm7Iqe8HkQ) application.
