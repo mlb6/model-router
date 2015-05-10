@@ -1,0 +1,25 @@
+{
+  "name": "ModelRouter",
+  "description": "Angular Model Router",
+  "main": "gulpfile.js",
+  "private": true,
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "browser-sync":"^2.7.1",
+    "gulp": "^3.8.11",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-rename":"^1.2.2",
+    "gulp-sourcemaps":"^1.5.2",
+    "gulp-traceur": "^0.17.1",
+    "through2":"^0.6.5"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.18",
+    "rtts_assert": "^2.0.0-alpha.7",
+    "rx": "2.4.6",
+    "systemjs": "^0.16.11",
+    "zone.js": "^0.4.1"
+
+  }
+}

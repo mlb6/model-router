@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="dist/system.js"></script>
+</head>
+<body>
+
+
+
+<script>
+    // Rewrite the paths to load the files
+    System.paths = {
+        'angular2/*': '/node_modules/angular2/*.js',
+        'traceur-runtime': '/node_modules/angular2/node_modules/traceur/bin/traceur-runtime.js',
+        'rtts_assert/*': '/node_modules/angular2/node_modules/rtts_assert/*.js',
+        'rx': '/node_modules/angular2/node_modules/rx/dist/rx.all.js',
+
+        'model-router/*':'/dist/*.js',
+        'app': 'dist/app.js' // The app
+    };
+    // Kick off the application
+    System.import('app');
+</script>
+</body>
+</html>
